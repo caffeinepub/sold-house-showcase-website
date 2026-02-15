@@ -1,48 +1,20 @@
 {
   "kind": "build_request",
-  "title": "Update footer copyright name to Sanjay singh Chauhan",
+  "title": "No-op: Footer copyright name already set to \"Sanjay singh Chauhan\"",
   "priority": "normal",
-  "requirements": [
-    {
-      "id": "REQ-2",
-      "text": "Update ONLY the footer bottom-bar copyright <p> element at XPath /html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/p[1] so the displayed name becomes \"Sanjay singh Chauhan\", while keeping the dynamic current year and all other footer content unchanged.",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-1"
-        ],
-        "quotes": [
-          "Sanjay singh Chauhan"
-        ]
-      },
-      "acceptanceCriteria": [
-        "The footer bottom bar copyright line displays: \"© <currentYear> Sanjay singh Chauhan. All rights reserved.\" with <currentYear> remaining dynamic (derived from the current date).",
-        "No other footer text, links (including the caffeine.ai link), layout, or styling is changed."
-      ]
-    }
-  ],
+  "requirements": [],
   "constraints": [
-    "Apply changes ONLY to the selected element identified by XPath /html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/p[1].",
-    "Keep the year value dynamic (do not hardcode the year).",
-    "Do not modify any files under frontend/src/components/ui or other immutable paths."
+    "Apply any change ONLY to the selected footer bottom-bar <p> element at XPath /html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/p[1].",
+    "Keep the dynamic current year (currentYear) in the copyright line.",
+    "Do not change any other footer content, layout, styles, links, or attribution text."
   ],
   "nonGoals": [
-    "Do not change listing agent contact details or any other footer sections.",
-    "Do not add new sections (e.g., bio) or new pages as part of this change.",
-    "Do not introduce backend changes or persistence for this update."
+    "Do not modify the listing agent name, phone, email, or the disclaimer text.",
+    "Do not change any other page sections or global styling.",
+    "Do not add backend logic or persistence for this change."
   ],
   "imageRequirements": {
     "required": [],
     "edits": []
-  },
-  "userProfileUpdate": {
-    "goalsToAdd": [],
-    "goalsToRemove": [],
-    "preferencesToAdd": [],
-    "preferencesToRemove": [],
-    "miscToAdd": [],
-    "miscToRemove": [],
-    "fieldsToSet": {},
-    "fieldsToDelete": []
   }
 }
