@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-only-the-footer-bottom-bar-copyright-p-element-at-xpath-html-1-body-1-div-1-div-1-footer-1-div-1-div-1-div-1-p-1-so-the-displayed-name-becomes-sanjay-singh-chauhan-while-keeping-the-dynamic-current-year-and-all-other-footer-content-unchanged",
+      "featureTitle": "Update ONLY the footer bottom-bar copyright <p> element at XPath /html[1]/body[1]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/p[1] so the displayed name becomes \"Sanjay singh Chauhan\", while keeping the dynamic current year and all other footer content unchanged.",
+      "files": [
+        "frontend/src/components/sections/FooterSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

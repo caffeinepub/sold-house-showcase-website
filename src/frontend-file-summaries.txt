@@ -1,0 +1,12 @@
+{
+  "frontend/src/data/listing.ts": "Central data model containing all listing information including address, stats, highlights, gallery images, and contact details (phone updated to +91 91701409494) for the sold house.",
+  "frontend/src/components/sections/HeroSection.tsx": "Hero section component displaying the property address, tagline, SOLD badge, and hero image with gradient overlay.",
+  "frontend/src/components/sections/KeyDetailsSection.tsx": "Property details section showing key statistics in a responsive grid of cards, now with an inquiry line displaying the contact phone number near the heading.",
+  "frontend/src/components/sections/HighlightsSection.tsx": "Highlights section displaying property features as a list with checkmark icons in a responsive grid layout.",
+  "frontend/src/components/sections/GallerySection.tsx": "Photo gallery section with responsive grid and keyboard-accessible lightbox modal for viewing full-size images with navigation controls.",
+  "frontend/src/components/sections/FooterSection.tsx": "Footer section with agent contact information, property disclaimer, and attribution including caffeine.ai link with UTM parameters, now displaying copyright for Sanjay singh Chauhan.",
+  "frontend/src/App.tsx": "Main application component composing all sections (Hero, Key Details, Gallery, Highlights, Footer) with data from the central listing model, now passing inquiry phone to KeyDetailsSection.",
+  "frontend/src/index.css": "Global styles with premium warm neutral and gold accent color palette using OKLCH, enhanced focus states for accessibility, and typography settings.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom font families (Inter and Playfair Display), extended color tokens, and custom shadows for premium aesthetic.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as no backend queries are needed for this static showcase website."
+}
